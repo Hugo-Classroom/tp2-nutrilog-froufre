@@ -5,7 +5,7 @@ import SwiftData
 struct NutriLogApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView()
+            LoginView()
         }
         .modelContainer(PersistenceController.shared.container)
     }
